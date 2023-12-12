@@ -13,11 +13,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server --watch data/questions.json --port 9000"
+    "start": "DEBUG=* react-scripts start",
+    "build": "DEBUG=* react-scripts build",
+    "test": "DEBUG=* react-scripts test",
+    "eject": "DEBUG=* react-scripts eject",
+    "server": "DEBUG=* json-server --watch data/questions.json --port 9000"
   },
   "eslintConfig": {
     "extends": [
